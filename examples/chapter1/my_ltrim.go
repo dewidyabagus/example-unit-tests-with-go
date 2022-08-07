@@ -1,4 +1,4 @@
-package examples
+package chapter1
 
 // To Do: This function is used to remove spaces to the left of text
 func MyLtrim(text string) string {
