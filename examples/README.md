@@ -19,9 +19,7 @@ Berikut attribut yang dapat digunakan:
 - `-run` menjalankan fungsi test tertentu, contoh `-run=TestMyLtrimExample1`.
 - `-race` memastikan code yang dibuat tidak berpotensi `race condition`.
 
-Selain attribut yang dijelaskan diatas masih banyak lagi attribut yang dapa digunakan, berikut [dokumentasi go](https://pkg.go.dev/cmd/go/internal/test).
-
-
+Selain attribut yang dijelaskan diatas masih banyak lagi attribut yang dapat digunakan, berikut [dokumentasi go](https://pkg.go.dev/cmd/go/internal/test).
 
 ## Referensi
 - https://pkg.go.dev/cmd/go/internal/test
