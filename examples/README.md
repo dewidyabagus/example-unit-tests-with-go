@@ -9,7 +9,7 @@ func TestMyLtrim(t *testing.T) {
 ```
 
 Pembagian pembahasan :
-- Basic Unit Tests pada [chapter1](https://github.com/dewidyabagus/example-unit-tests-with-go/tree/master/examples/chapter1) dan [chapter2](https://github.com/dewidyabagus/example-unit-tests-with-go/tree/master/examples/chapter1) :
+- Basic Unit Tests pada [chapter1](https://github.com/dewidyabagus/example-unit-tests-with-go/tree/master/examples/chapter1) dan [chapter2](https://github.com/dewidyabagus/example-unit-tests-with-go/tree/master/examples/chapter2) :
   - Fungsi `Fail()` dan `FailNow()`
   - Fungsi `Log()` dan `Logf()`
   - Fungsi `Error()` dan `Errorf()`
