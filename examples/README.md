@@ -1,12 +1,28 @@
-# Unit Tests With testing Package
-Pada bagian ini akan dijelaskan penggunaan package `testing` khususnya untuk `testing.T` yang diteruskan (parameter) melalui fungsi `Test`.
-- Fungsi `Fail()` dan `FailNow()`
-- Fungsi `Log()` dan `Logf()`
-- Fungsi `Error()` dan `Errorf()`
-- Fungsi `Fatal()` dan `Fatalf()`
+# Go Basic Unit Tests
+Pada bagian ini akan dijelaskan penggunaan package `testing` khususnya untuk `testing.T` dan `assertion` menggunakan library `testify`.
 
+Penulisan fungsi testing di Go sendiri memiliki aturan dimana nama fungsi harus diawali dengan `Test`, memiliki satu parameter dengan tipe `*testing.T`, dan tanpa mengembalikan nilai (return value).
+```go
+func TestMyLtrim(t *testing.T) {
+    // code unit testing
+}
+```
+
+Pembagian pembahasan :
+- Basic Unit Tests pada [chapter1](https://github.com/dewidyabagus/example-unit-tests-with-go/tree/master/examples/chapter1) dan [chapter2](https://github.com/dewidyabagus/example-unit-tests-with-go/tree/master/examples/chapter1) :
+  - Fungsi `Fail()` dan `FailNow()`
+  - Fungsi `Log()` dan `Logf()`
+  - Fungsi `Error()` dan `Errorf()`
+  - Fungsi `Fatal()` dan `Fatalf()`
+- Assertion pada [chapter3]() :
+  - Penggunaan `assert` dan `require`
+  - Penggunaan fungsi `Equal()`, `Nil()`, `NotNil()`, `NoError()` dan lain - lain.
+  
 ## Requirements
 - Go Language 1.18.3
+
+## Dependency
+- Package [Testify](https://github.com/stretchr/testify)
 
 ## Menjalankan unit testing
 Pada bahasa Go secara bawaan sudah di support untuk melakukan unit testing dengan menjalankan perintah:
