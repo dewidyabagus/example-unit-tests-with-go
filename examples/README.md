@@ -14,7 +14,7 @@ Pembagian pembahasan :
   - Fungsi `Log()` dan `Logf()`
   - Fungsi `Error()` dan `Errorf()`
   - Fungsi `Fatal()` dan `Fatalf()`
-- Assertion pada [chapter3]() :
+- Assertion pada [chapter3](https://github.com/dewidyabagus/example-unit-tests-with-go/tree/master/examples/chapter3) :
   - Penggunaan `assert` dan `require`
   - Penggunaan fungsi `Equal()`, `Nil()`, `NotNil()`, `NoError()` dan lain - lain.
   
