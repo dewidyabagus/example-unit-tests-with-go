@@ -39,3 +39,4 @@ Selain attribut yang dijelaskan diatas, masih banyak attribut yang dapat digunak
 
 ## Referensi
 - https://pkg.go.dev/cmd/go/internal/test
+- https://github.com/stretchr/testify#readme
