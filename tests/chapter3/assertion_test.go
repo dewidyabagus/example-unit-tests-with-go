@@ -10,7 +10,7 @@ import (
 )
 
 // Run Multiple Func:
-// go test -v -timeout 30s -run "^(TestSomething|TestJSONPayload)"$ learning/unit-tests/examples/chapter3
+// go test -v -timeout 30s -run "^(TestSomething|TestJSONPayload)"$ learning/unit-tests/tests/chapter3
 
 // To Do: Contoh penggunaan assert dan require dengan berbagai fungsi yang dapat digunakan.
 func TestSomething(t *testing.T) {
